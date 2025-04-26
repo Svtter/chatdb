@@ -1,12 +1,10 @@
-from select import select
-
-from fastmcp import MCP
+from fastmcp import FastMCP
 
 from db import get_session
 
 
 def get_mcp():
-  return MCP(
+  return FastMCP(
     host="localhost",
     port=8080,
     username="admin",
