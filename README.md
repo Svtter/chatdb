@@ -6,6 +6,8 @@ A easier memory layer for gpt.
 
 ## Install
 
+We use uv to manage the python project.
+
 ```bash
 uv sync
 ```
@@ -20,8 +22,8 @@ Config this to MCP server.
   "mcpServers": {
     "chatdb": {
       "commands": "",
-      "DB_PATH": {
-        "env": "<your-database-path>"
+      "env": {
+        "DB_PATH": "<your-database-path>"
       }
     }
   }
