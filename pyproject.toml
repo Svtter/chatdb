@@ -1,0 +1,20 @@
+[project]
+name = "db"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.2.5",
+    "invoke>=2.2.0",
+    "sqlalchemy>=2.0.40",
+    "sqlmodel>=0.0.24",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.7",
+]
+
+[tool.ruff]
+indent-width = 2
