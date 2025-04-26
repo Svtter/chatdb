@@ -1,7 +1,7 @@
 [project]
-name = "db"
+name = "chatdb"
 version = "0.1.0"
-description = "Add your description here"
+description = "A small mcp service to record things in sqlite. A simple GPT memory layer."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
