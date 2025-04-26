@@ -20,7 +20,7 @@ Config this to MCP server.
   "mcpServers": {
     "chatdb": {
       "commands": "",
-      "env": {
+      "DB_PATH": {
         "env": "<your-database-path>"
       }
     }
