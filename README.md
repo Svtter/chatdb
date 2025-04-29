@@ -30,6 +30,12 @@ Config this to MCP server.
 }
 ```
 
+## Related Work
+
+- [huchenxucs/ChatDB](https://github.com/huchenxucs/ChatDB) 大模型自己建库建表
+
+
+
 ## LICENSE
 
 AGPL
